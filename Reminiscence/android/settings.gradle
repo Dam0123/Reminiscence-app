@@ -1,0 +1,5 @@
+rootProject.name = 'Reminiscence'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+startParameter.excludedTaskNames += ':react-native-navigation:testReactNative63DebugUnitTest'
+startParameter.excludedTaskNames += ':react-native-navigation:testReactNative63ReleaseUnitTest'
